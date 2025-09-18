@@ -20,3 +20,12 @@ VGGSound:
   video_path: ../data/test-videos
   # from the officially released csv file
   csv_path: ../data/vggsound.csv
+
+JavisBench:
+  csv_path: ./javisbench.csv
+
+Landscape:
+  csv_path: ./landscape.csv
+
+AIST:
+  csv_path: ./aist.csv

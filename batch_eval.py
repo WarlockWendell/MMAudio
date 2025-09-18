@@ -90,7 +90,7 @@ def main(cfg: DictConfig):
             audios = audios.float().cpu()
             names = batch['name']
             for audio, name in zip(audios, names):
-                torchaudio.save(output_dir / f'{name}.flac', audio, seq_cfg.sampling_rate)
+                torchaudio.save(output_dir / f'{name}.wav', audio, seq_cfg.sampling_rate)
 
 
 def distributed_setup():
